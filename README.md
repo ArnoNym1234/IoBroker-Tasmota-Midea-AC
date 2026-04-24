@@ -33,9 +33,12 @@ Protocol findings differing from standard Midea docs:
 ## 🔧 Hardware
 
 ### Required
-- **ESP32-DevKit** (ESP32-WROOM-32)
+- **ESP32-DevKit** (e.g. ESP32-WROOM-32)
 - **USB-A plug** (AC connection)
 - Tasmota Firmware (ESP32, v13.x+ Berry)
+
+## Tested on: 
+- ESP-WROOM-32 NodeMCU
 
 ## 🔌 Wiring
 | Board-Aufdruck | GPIO | Funktion |
@@ -105,6 +108,5 @@ Status: stat/<topic>/RESULT
 ```JSON
 {"MideaAC":{"Power":"ON","Mode":"Heat","TargetTemp":24.0,"IndoorTemp":23.2,"EnergyWh":812}}
 ````
-## Tested on: 
-- ESP-WROOM-32 NodeMCU
+
 
