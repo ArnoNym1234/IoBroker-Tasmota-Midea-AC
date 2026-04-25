@@ -1,6 +1,11 @@
-# IoBroker-Tasmota-Midea-AC
+# Tasmota Midea AC MQTT Web
+
 # Midea AC / Kältebringer Climate Control via Tasmota Berry
 Control of a **Kältebringer Split Air Conditioner** (Midea Protocol) using an **ESP32 with Tasmota** and Berry script. Communication via the internal UART port (USB-like socket) of the indoor unit.
+
+## 👋 Note from First-Time Developer
+This is my **first project** where I've used external sources and inspirations.  
+If I've done anything wrong with licenses, attribution, or anything else, **please send me an email** and I'll fix it immediately.
 
 ## 📖 Background
 
